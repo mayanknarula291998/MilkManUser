@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MilkManUser</string>
+    <string name="tv_login_email">Email</string>
+    <string name="tv_login_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="tv_reg">Register</string>
+    <string name="forgot">Forgot Password ?</string>
+
+    <!-- string.xml -->
+    <string name="nav_home">Home</string>
+    <string name="nav_user">User</string>
+    <string name="nav_order">My Orders</string>
+    <string name="nav_profile">My Profile</string>
+    <string name="nav_enquiry">Enquiry Form</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_about">About Us</string>
+    <string name="nav_review">Review Us</string>
+    <string name="nav_share">Share with Friends</string>
+    <string name="nav_logout">Logout</string>
+    <string name="update_application_now">Update  App  Now</string>
+    <string name="cancell">Cancel</string>
+    <string name="outofstock">Out of Stock</string>
+    <string name="offers">Offers</string>
+    <string name="address">Office Address</string>
+    <string name="nav_terms">Terms &amp; Conditions</string>
+    <string name="emailormobile">Enter Mobile No.</string>
+    <string name="confirm">Next</string>
+    <string name="enetrotp">Enter Otp</string>
+    <string name="check">Check Otp</string>
+    <string name="cont">Continue</string>
+    <string name="region">REGION</string>
+    <string name="area">AREA/LOCATION</string>
+    <string name="nav_wallet">My Wallet</string>
+    <string name="nav_bills">Bills</string>
+    <string name="nav_refer"><![CDATA[Refer & Earn]]></string>
+    <string name="navigation_drawer_open">OpenNavigationDrawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+</resources>

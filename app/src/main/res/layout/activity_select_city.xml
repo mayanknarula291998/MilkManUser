@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".login.SelectCity">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="240dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/image">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/region"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:id="@+id/district"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_height="44dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/area"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:id="@+id/area"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_height="44dp"/>
+
+
+            <Button
+                android:id="@+id/checkotp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/background_three"
+                android:text="@string/cont"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>
